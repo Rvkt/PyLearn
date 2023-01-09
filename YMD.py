@@ -8,4 +8,6 @@ day = now.strftime('%d')
 date_str = f'{year}{month_int}{day}'
 print(date_str)
 
+os.mkdir('today')
+
 os.mkdir(date_str)
